@@ -240,6 +240,7 @@ syscall_t syscall_table[] = {
     [377] = (syscall_t) sys_copy_file_range,
     [383] = (syscall_t) syscall_stub, // statx
     [384] = (syscall_t) sys_arch_prctl,
+    [435] = (syscall_t) syscall_stub, // clone3
     [439] = (syscall_t) syscall_stub, // faccessat2
 };
 
